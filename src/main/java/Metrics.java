@@ -21,3 +21,26 @@ public enum Metrics {
     }
 
 }
+
+/*
+public enum Metrics {
+    KILOMETER(100000),
+    METER(100),
+    CENTIMETER(1);
+
+    private final double conversionFactor;
+
+    Metrics(double conversionFactor) {
+        this.conversionFactor = conversionFactor;
+    }
+
+    public double convertToThisMetric(double magnitude, Metrics metrics) {
+        return magnitude * metrics.conversionFactor/ conversionFactor;
+    }
+
+    public double convertToBaseMetric(double magnitude) {
+        return magnitude * conversionFactor;
+    }
+}
+
+ */
